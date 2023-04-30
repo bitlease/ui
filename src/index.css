@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fontA {
+    /*font-family: 'Montserrat Subrayada', sans-serif; */
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.fontB {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fontC {
+    font-family: 'Kanit', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ad {
+    width: 100% - 5rem - 22rem;
+}
