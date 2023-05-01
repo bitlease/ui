@@ -1,0 +1,6 @@
+@media screen and (max-width: 1024px){
+    .feature-container .feature-card-holder{
+        display: flex;
+        flex-direction: column;
+    }
+}
