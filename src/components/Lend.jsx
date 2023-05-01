@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import getWinner from '../contract/Contractinit';
 
 const Lend = () => {
   const [ selectedButton, setSelectedButton ] = useState(null)
@@ -42,7 +41,7 @@ const Lend = () => {
               <p className="fontC">0.003%</p>
             </div>
 
-            <button onClick={getWinner} className="flex mt-5 w-10/12 justify-center p-2 rounded-md px-4 bg-blue-400 hover:bg-blue-500">
+            <button className="flex mt-5 w-10/12 justify-center p-2 rounded-md px-4 bg-blue-400 hover:bg-blue-500">
               Lend
             </button>
           </div>
