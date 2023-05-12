@@ -10,7 +10,7 @@ const Market = () => {
         <p className="fontB text-xl">Trading Market</p>
         {/* <button className="bg-blue-800 text-white px-5 mx-2 h-3/5 flex justify-center items-center rounded-md">Borrowed</button> */}
       </div>
-      <div className="lg:2/6 bg-white my-10 flex flex-col p-2 justify-evenly items-center md:flex-row">
+      <div className="lg:2/6 bg-white my-10 flex flex-col p-2 justify-evenly items-start md:flex-row">
         <Marketcard btnname="Borrow" />
         <Lend />
         <Repayloan btnname="Repay" />

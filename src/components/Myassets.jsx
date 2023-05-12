@@ -9,10 +9,10 @@ const Myassets = () => {
             {/* <button className="bg-blue-800 text-white px-5 mx-2 h-3/5 flex justify-center items-center rounded-md">Borrowed</button> */}
         </div>
         <div className="w-full bg-white my-10 flex overflow-scroll">
-            <Assetcard name="BTC" amount="0.0993" usdamount="300" />
-            <Assetcard name="ASTR" amount="0.0993" usdamount="300"/>
-            <Assetcard name="USDC" amount="0.0993" usdamount="300"/>
-            <Assetcard name="DOT" amount="0.0993" usdamount="300"/>
+            <Assetcard name="BTC" amount="0.0000" usdamount="300" />
+            <Assetcard name="ASTR" amount="0.0000" usdamount="300"/>
+            <Assetcard name="USDC" amount="0.0000" usdamount="300"/>
+            <Assetcard name="DOT" amount="0.00000" usdamount="300"/>
         </div>
     </>
   )

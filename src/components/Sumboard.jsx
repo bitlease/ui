@@ -16,8 +16,8 @@ const Sumboard = () => {
                     <p className='text-md'>Total Borrowed</p>
                     <p className='text-3xl py-4'>$0.0998</p>
                   </div>
-                  <Bboard bname="Bitcoin Borrowed" bamount="0.0039" />
-                  <Bboard bname="Ethereum Borrowed" bamount="0.0039" />
+                  <Bboard bname="DOT Borrowed" bamount="0.0039" />
+                  <Bboard bname="ASTR Borrowed" bamount="0.0039" />
                   <Bboard bname="USDC Borrowed" bamount="0.0039" />
                   <Bboard bname="USDC Borrowed" bamount="0.0039" />
                   <Bboard bname="USDC Borrowed" bamount="0.0039" />
@@ -27,11 +27,11 @@ const Sumboard = () => {
                     <p className='text-md'>Total Leased</p>
                     <p className='text-3xl py-4'>$0.0998</p>
                   </div>
-                  <Bboard bname="Bitcoin Borrowed" bamount="0.0039" />
-                  <Bboard bname="Ethereum Borrowed" bamount="0.0039" />
-                  <Bboard bname="USDC Borrowed" bamount="0.0039" />
-                  <Bboard bname="USDC Borrowed" bamount="0.0039" />
-                  <Bboard bname="USDC Borrowed" bamount="0.0039" />
+                  <Bboard bname="DOT Leased" bamount="0.0039" />
+                  <Bboard bname="ASTR Leased" bamount="0.0039" />
+                  <Bboard bname="USDC Leased" bamount="0.0039" />
+                  <Bboard bname="USDC Leased" bamount="0.0039" />
+                  <Bboard bname="USDC Leased" bamount="0.0039" />
                 </div>
             </div>
         </div>

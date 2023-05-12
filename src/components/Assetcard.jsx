@@ -4,8 +4,8 @@ import { BiBitcoin } from 'react-icons/bi'
 
 const Assetcard = (props) => {
   return (
-    <div className="w-[20rem] min-w-[300px] h-[10rem] bg-green-200 rounded-lg mx-5 overflow-hidden scale-[0.9]">
-        <div className="h-2/5 w-full bg-red-300 flex items-center px-5 justify-between">
+    <div className="w-[20rem] min-w-[300px] h-[10rem] bg-white shadow-md rounded-lg mx-5 overflow-hidden scale-[0.9]">
+        <div className="h-2/5 w-full bg-gray-300 flex items-center px-5 justify-between">
             <div className="flex h-full items-center p-1">
                 <div className="h-[2.3rem] w-[3rem] bg-white flex justify-center items-center rounded-md mx-2"><BiBitcoin className='font-semibold text-2xl scale-[0.99]'/></div>
                 <div className='fontB'>{props.name}</div>
